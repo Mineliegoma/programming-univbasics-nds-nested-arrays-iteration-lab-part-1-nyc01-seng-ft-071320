@@ -8,7 +8,7 @@ while row_index<scr.count do
   while element_index<scr[row_index].count do
     if scr[row_index]
       [element_index].even?
-      p scr[row_index] [element_index]
+      puts scr[row_index] [element_index]
     end 
     element_index+=1
   end
